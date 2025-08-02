@@ -449,7 +449,4 @@ async function initializeDatabase() {
   }
 }
 
-export const storage = new DatabaseStorage();
-
-// Initialize database with sample data
-initializeDatabase();
+export const storage = new MemStorage();
